@@ -1,0 +1,55 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	position: relative;
+	font-size: 14px;
+	line-height: 20px;	
+}
+
+.wpr {
+	border: 1px solid red;
+	text-align: center;
+}
+
+div[class^="square"] {
+	width: 200px;
+	height: 200px;
+	border-style: solid;
+	display: inline-block;
+	margin: 20px;
+	transition: 0.3s;
+}
+
+div[class^="square"]:hover {
+	transform: rotate(360deg);
+	transition: 0.5s;
+}
+
+.previous_efect {
+	background-color: #f3f790 !important;
+	border-color: #f3f790 !important;
+	transition: 0.5s;
+}
+.next_efect {
+	opacity: 0.5;
+	transition: 0.5s;
+}
+
+button {
+	display: block;
+	width: 200px;
+	height: 100px;
+	background-color: #f3f790;
+	color: #000;
+	font-weight: 600;
+	text-align: center;
+	border: none;
+	border-radius: 5px;
+	outline: none;
+	margin: 1em auto;
+	cursor: pointer;
+}
+
+
